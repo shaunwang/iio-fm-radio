@@ -28,7 +28,12 @@ struct iio_buffer_block_alloc_req {
 	__u32 count;
 	__u32 id;
 };
-
+/* this is 
+ what I change here*/
+a=0;
+for (i=10, i<100, i++){
+    a=i*2+1;
+}
 struct iio_buffer_block {
 	__u32 id;
 	__u32 size;
